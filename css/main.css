@@ -50,7 +50,7 @@ textarea {
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -71,12 +71,16 @@ a:hover {
 }
 
 header, main, footer {
-    max-width: 660px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 main {
     padding: 10px;
+}
+
+article h4 {
+    color: #30a86f;
 }
 
 .intro-container {
@@ -104,9 +108,44 @@ main {
     margin-right: 20px;
 }
 
-.about {
-    max-width: 800px;
+.card {
+    box-shadow: 0 20px 18px 0 rgb(77 77 119 / 5%);
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #eaeef1;
+    margin: 20px 0;
+    position: relative;
 }
+
+.about-me {
+    font-size: 2rem;
+    position: absolute;
+    top: -58px;
+    left: 20px
+}
+
+@media only screen and (min-width: 1054px) {
+    .about-me {
+        font-size: 3rem;
+        position: absolute;
+        top: -88px;
+        left: -36px;
+    }
+  }
+
+.custom-list {
+    list-style-type: none;
+}
+
+.custom-list .custom-list__item::before {
+    content: "\2022";  
+    color: #30a86f; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+  }
 
 .work-experience {
     display: flex;
@@ -119,5 +158,6 @@ main {
 }
 
 .footer-container {
-    padding: 0 10px 100px 10px;
+    padding: 20px 10px 100px 10px;
+    background-color: #f0f0f0;
 }

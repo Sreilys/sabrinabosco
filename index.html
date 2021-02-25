@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet"> 
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -39,40 +40,45 @@
         </div>
 
         <main>
-            <article>
-                <p class="about">
+            <article class="card">
+                <h4 class="about-me">About Me</h4>
+                <p>
                 I build web experiences from scratch or with frameworks, mostly ReactJS and Redux,
                 work with custom backend implementations or APIs made in NodeJS.
+                <br>
                 I believe Usability and Accessibility are an integral part of the design and development process.
+                <br>
                 I love to listen to and help the people that will use the interface that I build.
+                <br>
                 Always working hard to improve and learn new tech and soft skills. Committed to write clean code and keep components simple and reusable.</p>
             </article>
 
-            <article>
-                <h4>Tech &amp; Tools I use in my everyday work</h4>
-                <ul>
-                    <li>HTML5, CSS3 (SASS/SCSS)</li>
-                    <li>Javascript & ES6 (or latest) - OOP and Functional Concepts</li>
-                    <li>ReactJS - Redux - Hooks - Context Api - Styled Components - Next.js</li>
-                    <li>NodeJS and MongoDB - Build RESTful API - Server Side Render Application</li>
-                    <li>Currently learning Typescript and VueJS</li>
-                    <li>Currently exploring XState Machine</li>
-                    <li>CSS Modular Architecture (SMACSS - BEM)</li>
-                    <li>Familiar with Backend Languages such as Java Ruby and Php</li>
-                    <li>Testing (Mocha - Jest - React Testing Library)</li>
-                    <li>A11y</li>
-                    <li>Webpack - Gulp</li>
-                    <li>UX</li>
+            <article class="card">
+                <h4>Skills</h4>
+                <p>Tech &amp; Tools I use in my everyday work</p>
+                <ul class="custom-list">
+                    <li class="custom-list__item">HTML5, CSS3 (SASS/SCSS)</li>
+                    <li class="custom-list__item">Javascript & ES6 (or latest) - OOP and Functional Concepts</li>
+                    <li class="custom-list__item">ReactJS - Redux - Hooks - Context Api - Styled Components - Next.js</li>
+                    <li class="custom-list__item">NodeJS and MongoDB - Build RESTful API - Server Side Render Application</li>
+                    <li class="custom-list__item">Currently learning Typescript and VueJS</li>
+                    <li class="custom-list__item">Currently exploring XState Machine</li>
+                    <li class="custom-list__item">CSS Modular Architecture (SMACSS - BEM)</li>
+                    <li class="custom-list__item">Familiar with Backend Languages such as Java Ruby and Php</li>
+                    <li class="custom-list__item">Testing (Mocha - Jest - React Testing Library)</li>
+                    <li class="custom-list__item">A11y</li>
+                    <li class="custom-list__item">Webpack - Gulp</li>
+                    <li class="custom-list__item">UX</li>
                 </ul>
             </article>
 
-            <article>
-                <h4>Fun projects that sometimes turn into side projects</h4>
-                <p>Working full time, I cant't take care of huge side projects. Work Life balance is important!</p>
-                <ul>
-                    <li>Tibetan Dictionary: a dictionary for a very old language, done in collaboration with a researcher. Backend CMS to insert more words is work in progress. Learn more about <a href="http://otdict.com/">Tibetan Old Language</a></li>
-                    <li>Work in progress UI for E-Commerce Template. React with Typescript, Styled Component. See draft here: <a href="https://react-to-shopping.netlify.app/">Shop</a>.</li>
-                    <li>Page Theme switch. Sometimes I build dummy stuff just to learn and experiment with new tech. See a colorful <a href="https://theme-provider-switch.herokuapp.com/">Theme Switcher here</a>.</li>
+            <article class="card">
+                <h4>Projects</h4>
+                <p>Work Life balance is important but from time to time I do little projects for fun that sometimes turn into side projects</p>
+                <ul class="custom-list">
+                    <li class="custom-list__item">Tibetan Dictionary: a dictionary for a very old language, done in collaboration with a researcher. Backend CMS to insert more words is work in progress. Learn more about <a href="http://otdict.com/">Tibetan Old Language</a></li>
+                    <li class="custom-list__item">Work in progress UI for E-Commerce Template. React with Typescript, Styled Component. See draft here: <a href="https://react-to-shopping.netlify.app/">Shop</a>.</li>
+                    <li class="custom-list__item">Page Theme switch. Sometimes I build dummy stuff just to learn and experiment with new tech. See a colorful <a href="https://theme-provider-switch.herokuapp.com/">Theme Switcher here</a>.</li>
                 </ul>
             </article>
         </main>
